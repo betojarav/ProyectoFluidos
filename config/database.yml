@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  username: postgres
+  password: 'rhapsody777'
+  pool: 5
+  template: template0
+
+production:
+  <<: *default
+  database: proyecto_fluidos_production
+
+development:
+  <<: *default
+  database: proyecto_fluidos_development
+
+test:
+  <<: *default
+  database: proyecto_fluidos_test
+  
