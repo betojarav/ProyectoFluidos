@@ -1,0 +1,2 @@
+class Piezometro < ApplicationRecord
+end

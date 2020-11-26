@@ -1,0 +1,2 @@
+class Barometro < ApplicationRecord
+end
