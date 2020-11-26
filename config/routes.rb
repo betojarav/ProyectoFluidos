@@ -22,7 +22,8 @@ Rails.application.routes.draw do
   get 'instrumentos/vacuometro'
   get 'instrumentos/piezometro'
   # Rutas tipos de presion
-  get 'presion/vacio'
-  get 'presion/relativa'
-  get 'presion/atmosferica'
+  get 'presions/vacio'
+  get 'presions/relativa'
+  get 'presions/atmosferica'
+  get 'presions/otras'
 end
