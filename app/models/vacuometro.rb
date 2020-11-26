@@ -1,0 +1,2 @@
+class Vacuometro < ApplicationRecord
+end

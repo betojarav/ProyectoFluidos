@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  alpha: 1.5
+  altura: 1.5
+
+two:
+  alpha: 1.5
+  altura: 1.5
