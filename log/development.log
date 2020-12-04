@@ -2972,3 +2972,425 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 139ms (Views: 126.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-12-04 15:32:42 -0300
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/camila-sty/.rvm/gems/ruby-2.6.5/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 685ms (Views: 668.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-04 15:32:53 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 118ms (Views: 108.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-04 15:38:10 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 154ms (Views: 141.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/piezometros/show" for ::1 at 2020-12-04 15:38:58 -0300
+Processing by PiezometrosController#show as HTML
+  Rendering piezometros/show.html.erb within layouts/application
+  Rendered piezometros/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 125ms (Views: 114.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/piezometros/show" for ::1 at 2020-12-04 15:39:00 -0300
+Processing by PiezometrosController#show as HTML
+  Rendering piezometros/show.html.erb within layouts/application
+  Rendered piezometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 134ms (Views: 118.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/piezometros/show" for ::1 at 2020-12-04 15:39:01 -0300
+Processing by PiezometrosController#show as HTML
+  Rendering piezometros/show.html.erb within layouts/application
+  Rendered piezometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 130ms (Views: 118.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacuometros/show" for ::1 at 2020-12-04 15:39:03 -0300
+Processing by VacuometrosController#show as HTML
+  Rendering vacuometros/show.html.erb within layouts/application
+  Rendered vacuometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 121ms (Views: 108.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacuometros/show" for ::1 at 2020-12-04 15:39:05 -0300
+Processing by VacuometrosController#show as HTML
+  Rendering vacuometros/show.html.erb within layouts/application
+  Rendered vacuometros/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 135ms (Views: 116.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/relativa" for ::1 at 2020-12-04 15:39:06 -0300
+Processing by PresionsController#relativa as HTML
+  Rendering presions/relativa.html.erb within layouts/application
+  Rendered presions/relativa.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 173ms (Views: 162.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/vacio" for ::1 at 2020-12-04 15:39:11 -0300
+Processing by PresionsController#vacio as HTML
+  Rendering presions/vacio.html.erb within layouts/application
+  Rendered presions/vacio.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 119ms (Views: 109.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/atmosferica" for ::1 at 2020-12-04 15:39:13 -0300
+Processing by PresionsController#atmosferica as HTML
+  Rendering presions/atmosferica.html.erb within layouts/application
+  Rendered presions/atmosferica.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 123ms (Views: 113.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/otras" for ::1 at 2020-12-04 15:39:16 -0300
+Processing by PresionsController#otras as HTML
+  Rendering presions/otras.html.erb within layouts/application
+  Rendered presions/otras.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 142ms (Views: 132.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/relativa" for ::1 at 2020-12-04 15:39:36 -0300
+Processing by PresionsController#relativa as HTML
+  Rendering presions/relativa.html.erb within layouts/application
+  Rendered presions/relativa.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 110ms (Views: 100.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/vacio" for ::1 at 2020-12-04 15:39:40 -0300
+Processing by PresionsController#vacio as HTML
+  Rendering presions/vacio.html.erb within layouts/application
+  Rendered presions/vacio.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 116ms (Views: 106.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/atmosferica" for ::1 at 2020-12-04 15:39:42 -0300
+Processing by PresionsController#atmosferica as HTML
+  Rendering presions/atmosferica.html.erb within layouts/application
+  Rendered presions/atmosferica.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 118ms (Views: 109.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/otras" for ::1 at 2020-12-04 15:39:45 -0300
+Processing by PresionsController#otras as HTML
+  Rendering presions/otras.html.erb within layouts/application
+  Rendered presions/otras.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 118ms (Views: 108.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/piezometros/show" for ::1 at 2020-12-04 15:39:46 -0300
+Processing by PiezometrosController#show as HTML
+  Rendering piezometros/show.html.erb within layouts/application
+  Rendered piezometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 124ms (Views: 101.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacuometros/show" for ::1 at 2020-12-04 15:39:48 -0300
+Processing by VacuometrosController#show as HTML
+  Rendering vacuometros/show.html.erb within layouts/application
+  Rendered vacuometros/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 135ms (Views: 114.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacuometros/show" for ::1 at 2020-12-04 15:39:48 -0300
+Processing by VacuometrosController#show as HTML
+  Rendering vacuometros/show.html.erb within layouts/application
+  Rendered vacuometros/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 168ms (Views: 146.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-04 15:39:51 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 120ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/relativa" for ::1 at 2020-12-04 15:41:20 -0300
+Processing by PresionsController#relativa as HTML
+  Rendering presions/relativa.html.erb within layouts/application
+  Rendered presions/relativa.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 122ms (Views: 110.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/otras" for ::1 at 2020-12-04 15:41:22 -0300
+Processing by PresionsController#otras as HTML
+  Rendering presions/otras.html.erb within layouts/application
+  Rendered presions/otras.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 117ms (Views: 106.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/atmosferica" for ::1 at 2020-12-04 15:41:24 -0300
+Processing by PresionsController#atmosferica as HTML
+  Rendering presions/atmosferica.html.erb within layouts/application
+  Rendered presions/atmosferica.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 111.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/vacio" for ::1 at 2020-12-04 15:41:25 -0300
+Processing by PresionsController#vacio as HTML
+  Rendering presions/vacio.html.erb within layouts/application
+  Rendered presions/vacio.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 117ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/vacio" for ::1 at 2020-12-04 15:41:26 -0300
+Processing by PresionsController#vacio as HTML
+  Rendering presions/vacio.html.erb within layouts/application
+  Rendered presions/vacio.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 119ms (Views: 106.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/vacio" for ::1 at 2020-12-04 15:41:27 -0300
+Processing by PresionsController#vacio as HTML
+  Rendering presions/vacio.html.erb within layouts/application
+  Rendered presions/vacio.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 137ms (Views: 122.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/vacio" for ::1 at 2020-12-04 15:41:28 -0300
+Processing by PresionsController#vacio as HTML
+  Rendering presions/vacio.html.erb within layouts/application
+  Rendered presions/vacio.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 123ms (Views: 112.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/relativa" for ::1 at 2020-12-04 15:48:02 -0300
+Processing by PresionsController#relativa as HTML
+  Rendering presions/relativa.html.erb within layouts/application
+  Rendered presions/relativa.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 125ms (Views: 115.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/vacio" for ::1 at 2020-12-04 15:48:03 -0300
+Processing by PresionsController#vacio as HTML
+  Rendering presions/vacio.html.erb within layouts/application
+  Rendered presions/vacio.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 155ms (Views: 143.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/otras" for ::1 at 2020-12-04 15:48:04 -0300
+Processing by PresionsController#otras as HTML
+  Rendering presions/otras.html.erb within layouts/application
+  Rendered presions/otras.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 116ms (Views: 106.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-04 15:48:09 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 131ms (Views: 120.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/relativa" for ::1 at 2020-12-04 15:50:33 -0300
+Processing by PresionsController#relativa as HTML
+  Rendering presions/relativa.html.erb within layouts/application
+  Rendered presions/relativa.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 120ms (Views: 110.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/piezometros/show" for ::1 at 2020-12-04 15:50:35 -0300
+Processing by PiezometrosController#show as HTML
+  Rendering piezometros/show.html.erb within layouts/application
+  Rendered piezometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 133ms (Views: 116.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/piezometros/show" for ::1 at 2020-12-04 15:50:37 -0300
+Processing by PiezometrosController#show as HTML
+  Rendering piezometros/show.html.erb within layouts/application
+  Rendered piezometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 129ms (Views: 115.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-04 15:50:42 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 137ms (Views: 122.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-04 15:51:15 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 153ms (Views: 140.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-04 15:51:36 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 122ms (Views: 111.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-04 15:52:14 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 139ms (Views: 126.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-04 15:52:18 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 131ms (Views: 121.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-04 15:53:15 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 146ms (Views: 131.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-04 15:53:26 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 109.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-04 15:53:42 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 122ms (Views: 111.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-04 15:54:06 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 122ms (Views: 111.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-04 15:54:23 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 122ms (Views: 109.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-04 15:55:13 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 131ms (Views: 116.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/relativa" for ::1 at 2020-12-04 16:03:59 -0300
+Processing by PresionsController#relativa as HTML
+  Rendering presions/relativa.html.erb within layouts/application
+  Rendered presions/relativa.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 147ms (Views: 134.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/piezometros/show" for ::1 at 2020-12-04 16:04:53 -0300
+Processing by PiezometrosController#show as HTML
+  Rendering piezometros/show.html.erb within layouts/application
+  Rendered piezometros/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 168ms (Views: 146.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/piezometros/show" for ::1 at 2020-12-04 16:05:24 -0300
+Processing by PiezometrosController#show as HTML
+  Rendering piezometros/show.html.erb within layouts/application
+  Rendered piezometros/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 219ms (Views: 199.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-04 16:05:27 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 191ms (Views: 170.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/piezometros/show" for ::1 at 2020-12-04 16:14:10 -0300
+Processing by PiezometrosController#show as HTML
+  Rendering piezometros/show.html.erb within layouts/application
+  Rendered piezometros/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 150ms (Views: 138.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/vacio" for ::1 at 2020-12-04 16:19:12 -0300
+Processing by PresionsController#vacio as HTML
+  Rendering presions/vacio.html.erb within layouts/application
+  Rendered presions/vacio.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 154ms (Views: 139.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/atmosferica" for ::1 at 2020-12-04 16:20:10 -0300
+Processing by PresionsController#atmosferica as HTML
+  Rendering presions/atmosferica.html.erb within layouts/application
+  Rendered presions/atmosferica.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 146ms (Views: 133.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/atmosferica" for ::1 at 2020-12-04 16:20:12 -0300
+Processing by PresionsController#atmosferica as HTML
+  Rendering presions/atmosferica.html.erb within layouts/application
+  Rendered presions/atmosferica.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 144ms (Views: 134.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/piezometros/show" for ::1 at 2020-12-04 16:21:33 -0300
+Processing by PiezometrosController#show as HTML
+  Rendering piezometros/show.html.erb within layouts/application
+  Rendered piezometros/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 150ms (Views: 134.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/piezometros/show" for ::1 at 2020-12-04 16:22:34 -0300
+Processing by PiezometrosController#show as HTML
+  Rendering piezometros/show.html.erb within layouts/application
+  Rendered piezometros/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 204ms (Views: 188.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/piezometros/show" for ::1 at 2020-12-04 16:22:54 -0300
+Processing by PiezometrosController#show as HTML
+  Rendering piezometros/show.html.erb within layouts/application
+  Rendered piezometros/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 221ms (Views: 196.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/piezometros/show" for ::1 at 2020-12-04 16:23:19 -0300
+Processing by PiezometrosController#show as HTML
+  Rendering piezometros/show.html.erb within layouts/application
+  Rendered piezometros/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 201ms (Views: 179.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/atmosferica" for ::1 at 2020-12-04 16:23:31 -0300
+Processing by PresionsController#atmosferica as HTML
+  Rendering presions/atmosferica.html.erb within layouts/application
+  Rendered presions/atmosferica.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 148ms (Views: 137.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/piezometros/show" for ::1 at 2020-12-04 16:23:35 -0300
+Processing by PiezometrosController#show as HTML
+  Rendering piezometros/show.html.erb within layouts/application
+  Rendered piezometros/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 150ms (Views: 124.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/piezometros/show" for ::1 at 2020-12-04 16:23:53 -0300
+Processing by PiezometrosController#show as HTML
+  Rendering piezometros/show.html.erb within layouts/application
+  Rendered piezometros/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 176ms (Views: 163.1ms | ActiveRecord: 0.0ms)
+
+
