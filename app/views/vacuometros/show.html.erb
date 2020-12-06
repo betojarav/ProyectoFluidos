@@ -18,7 +18,7 @@
 
   <div id="navbarExampleTransparentExample" class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item" href="">
+      <a class="navbar-item" href="/">
         Introducción
       </a>
       <div class="navbar-item has-dropdown is-hoverable">
@@ -90,6 +90,43 @@
                 </figure>
               </article>
           </div>
+        </div>
+        <div class="field">
+          <br><br/>
+          <p>
+          ¡Ahora prueba el Vacuómetro! 
+          <p>
+          Las dimension del vacuometro son:
+          </p>
+          <p>
+          * Diametro de 1 mm
+          </p>
+          <p>
+          * Volumen de 100.000 mm^3
+          </p>
+          <p>
+          Ingresa la altura en milimetros:
+          </p>
+          <div class="control">
+            <input id ="input" class="input is-primary" type="text" placeholder="altura en metros">
+          </div>
+          <button onclick="myGeeks()"> 
+            Medir presión
+          </button>
+          <br><br/>
+          <p>
+          La presión medida por el instrumento es:
+          </p>
+          <label id = "presion_medida"> 
+            0
+          </label> 
+          <script> 
+            function myGeeks() { 
+              presion = (0.25*Math.PI*(document.getElementById('input').value**2))/(100000)
+              document.getElementById('presion_medida').innerHTML 
+                = presion + ' [torr]'; 
+            } 
+          </script> 
         </div>
         </div>
         

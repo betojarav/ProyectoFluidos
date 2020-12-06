@@ -24,6 +24,6 @@ Rails.application.routes.draw do
   # Rutas tipos de presion
   get 'presions/vacio'
   get 'presions/relativa'
-  get 'presions/atmosferica'
+  get 'presions/atmosferica' 
   get 'presions/otras'
 end

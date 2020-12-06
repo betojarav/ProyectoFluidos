@@ -17,7 +17,7 @@
 
   <div id="navbarExampleTransparentExample" class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item" href="">
+      <a class="navbar-item" href="/">
         Introducción
       </a>
       <div class="navbar-item has-dropdown is-hoverable">
@@ -88,6 +88,43 @@
                 </figure>
               </article>
           </div>
+        </div>
+        <div class="field">
+          <br><br/>
+          <p>
+          ¡Ahora prueba el Piezómetro! 
+          <p>
+          Considerando:
+          </p>
+          <p>
+          * Densidad del agua = 1000 [kg/m³]
+          </p>
+          <p>
+          * g = 9.8 [m/s^2]
+          </p>
+          <p>
+          Ingresa la altura en metros:
+          </p>
+          <div class="control">
+            <input id ="input" class="input is-primary" type="text" placeholder="altura en metros">
+          </div>
+          <button onclick="myGeeks()"> 
+            Medir presión
+          </button>
+          <br><br/>
+          <p>
+          La presión medida por el instrumento es:
+          </p>
+          <label id = "presion_medida"> 
+            0
+          </label> 
+          <script> 
+            function myGeeks() { 
+              presion = 9.8*document.getElementById('input').value*1000
+              document.getElementById('presion_medida').innerHTML 
+                = presion + ' [Pa]'; 
+            } 
+          </script> 
         </div>
         </div>
         
