@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+  
 <html>
 <section class="hero is-primary is-fullheight">
   <!-- Hero head: will stick at the top -->
@@ -90,12 +92,40 @@
               </article>
           </div>
         </div>
-        </div>
         
-
+        <div class="field">
+          <br><br/>
+          <p>
+          ¡Ahora prueba el instrumento! 
+          <p>
+          Considerando la densidad del agua y g=9.8 [m/s^2]
+          </p>
+          <p>
+          Ingresa la altura en metros:
+          </p>
+          <div class="control">
+            <input id ="input" class="input is-primary" type="text" placeholder="altura en metros">
+          </div>
+          <button onclick="myGeeks()"> 
+            Medir presión
+          </button>
+          <br><br/>
+          <p>
+          La presión medida por el instrumento es:
+          </p>
+          <label id = "presion_medida"> 
+            0
+          </label> 
+          <script> 
+            function myGeeks() { 
+              presion = 101325*Math.exp(document.getElementById('input').value *(-1.18)*(10**(-4)))*9.87*(10**(-6))
+              document.getElementById('presion_medida').innerHTML 
+                = presion + ' [atm]'; 
+            } 
+          </script> 
         </div>
-
-
+        </div>
+        </div>
        <div class="column is-one-fifth">
        </div>
     </div>

@@ -4479,3 +4479,749 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 154ms (Views: 141.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-12-05 19:38:01 -0300
+Started GET "/" for ::1 at 2020-12-05 19:38:02 -0300
+  [1m[35m (23.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (23.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/beto/.rvm/gems/ruby-2.6.5/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+  ↳ /home/beto/.rvm/gems/ruby-2.6.5/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (55.9ms)
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 776ms (Views: 764.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 771ms (Views: 693.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-05 19:38:21 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 60ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/relativa" for ::1 at 2020-12-05 19:38:22 -0300
+Processing by PresionsController#relativa as HTML
+  Rendering presions/relativa.html.erb within layouts/application
+  Rendered presions/relativa.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 56ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/atmosferica" for ::1 at 2020-12-05 19:38:23 -0300
+Processing by PresionsController#atmosferica as HTML
+  Rendering presions/atmosferica.html.erb within layouts/application
+  Rendered presions/atmosferica.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 55ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/relativa" for ::1 at 2020-12-05 19:38:27 -0300
+Processing by PresionsController#relativa as HTML
+  Rendering presions/relativa.html.erb within layouts/application
+  Rendered presions/relativa.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/vacio" for ::1 at 2020-12-05 19:38:28 -0300
+Processing by PresionsController#vacio as HTML
+  Rendering presions/vacio.html.erb within layouts/application
+  Rendered presions/vacio.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 56ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/atmosferica" for ::1 at 2020-12-05 19:38:29 -0300
+Processing by PresionsController#atmosferica as HTML
+  Rendering presions/atmosferica.html.erb within layouts/application
+  Rendered presions/atmosferica.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 47ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/otras" for ::1 at 2020-12-05 19:38:30 -0300
+Processing by PresionsController#otras as HTML
+  Rendering presions/otras.html.erb within layouts/application
+  Rendered presions/otras.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 48ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/piezometros/show" for ::1 at 2020-12-05 19:38:31 -0300
+Processing by PiezometrosController#show as HTML
+  Rendering piezometros/show.html.erb within layouts/application
+  Rendered piezometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 46ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacuometros/show" for ::1 at 2020-12-05 19:38:32 -0300
+Processing by VacuometrosController#show as HTML
+  Rendering vacuometros/show.html.erb within layouts/application
+  Rendered vacuometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 53ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:38:34 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 56ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:41:02 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 65ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:50:07 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 52ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:50:33 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 57ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:50:51 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 56ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:50:58 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 64ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:51:17 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 75ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:51:21 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 49ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:00 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 56ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:02 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 57ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:03 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 52ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:03 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 51ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:30 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 68ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:31 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 55ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:32 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 56ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:33 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 48ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:33 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 50ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:34 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 52ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:35 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 81ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:35 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 62ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:36 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 49ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:37 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 53ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:37 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:38 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 55ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:40 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 68ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:41 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 47ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:42 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 52ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:48 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 53ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:49 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 57ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:53:50 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 52ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:54:33 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 53ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:54:54 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 55ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:54:58 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 60ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:55:29 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 65ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:55:36 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 53ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:55:40 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 51ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:55:47 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 56ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:55:48 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 49ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:55:49 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 57ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:55:49 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 49ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:55:49 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 53ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:55:51 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 50ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:55:51 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 58ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:55:52 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 51ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:56:07 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 51ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:56:08 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 82ms (Views: 78.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:56:09 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 51ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:56:10 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 67ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:56:10 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 55ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:56:32 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 51ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 19:56:33 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 50ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 20:01:05 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 60ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 20:01:15 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 65ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 20:01:38 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 53ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 20:01:51 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 51ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 20:01:57 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 54ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 20:02:03 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 67ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 20:34:49 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 54ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 20:35:17 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 82ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 20:35:33 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 62ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 20:36:38 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 66ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 20:39:15 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 55ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 20:41:42 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 58ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 20:41:44 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 51ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 20:41:44 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 62ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 20:41:45 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 63ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/relativa" for ::1 at 2020-12-05 20:41:45 -0300
+Processing by PresionsController#relativa as HTML
+  Rendering presions/relativa.html.erb within layouts/application
+  Rendered presions/relativa.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 47ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/relativa" for ::1 at 2020-12-05 20:41:47 -0300
+Processing by PresionsController#relativa as HTML
+  Rendering presions/relativa.html.erb within layouts/application
+  Rendered presions/relativa.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 48ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/relativa" for ::1 at 2020-12-05 20:41:47 -0300
+Processing by PresionsController#relativa as HTML
+  Rendering presions/relativa.html.erb within layouts/application
+  Rendered presions/relativa.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 46ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacuometros/show" for ::1 at 2020-12-05 20:41:50 -0300
+Processing by VacuometrosController#show as HTML
+  Rendering vacuometros/show.html.erb within layouts/application
+  Rendered vacuometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 57ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 20:41:53 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 57ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacuometros/show" for ::1 at 2020-12-05 20:41:57 -0300
+Processing by VacuometrosController#show as HTML
+  Rendering vacuometros/show.html.erb within layouts/application
+  Rendered vacuometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 56ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/piezometros/show" for ::1 at 2020-12-05 20:42:00 -0300
+Processing by PiezometrosController#show as HTML
+  Rendering piezometros/show.html.erb within layouts/application
+  Rendered piezometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 52ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 20:42:01 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 76ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 21:45:52 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 55ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 21:50:07 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 51ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 21:51:21 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 52ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 21:56:06 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 62ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 21:56:06 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 58ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 21:56:07 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 61ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 21:56:12 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 57ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 21:59:27 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 55ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 22:00:24 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 79ms (Views: 74.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-05 22:00:26 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 48ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/piezometros/show" for ::1 at 2020-12-05 22:19:16 -0300
+Processing by PiezometrosController#show as HTML
+  Rendering piezometros/show.html.erb within layouts/application
+  Rendered piezometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacuometros/show" for ::1 at 2020-12-05 22:19:31 -0300
+Processing by VacuometrosController#show as HTML
+  Rendering vacuometros/show.html.erb within layouts/application
+  Rendered vacuometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 53ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-06 01:26:18 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 55ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-06 01:26:23 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 76ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/piezometros/show" for ::1 at 2020-12-06 01:26:32 -0300
+Processing by PiezometrosController#show as HTML
+  Rendering piezometros/show.html.erb within layouts/application
+  Rendered piezometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 53ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/otras" for ::1 at 2020-12-06 01:36:52 -0300
+Processing by PresionsController#otras as HTML
+  Rendering presions/otras.html.erb within layouts/application
+  Rendered presions/otras.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 58ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-06 01:37:02 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 61ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-06 02:43:55 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 56ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presions/atmosferica" for ::1 at 2020-12-06 02:43:57 -0300
+Processing by PresionsController#atmosferica as HTML
+  Rendering presions/atmosferica.html.erb within layouts/application
+  Rendered presions/atmosferica.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 99ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacuometros/show" for ::1 at 2020-12-06 02:43:59 -0300
+Processing by VacuometrosController#show as HTML
+  Rendering vacuometros/show.html.erb within layouts/application
+  Rendered vacuometros/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 85ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/barometros/show" for ::1 at 2020-12-06 02:44:00 -0300
+Processing by BarometrosController#show as HTML
+  Rendering barometros/show.html.erb within layouts/application
+  Rendered barometros/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 57ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
